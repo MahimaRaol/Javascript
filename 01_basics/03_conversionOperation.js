@@ -6,8 +6,8 @@ let age = "27"
 // console.log(typeof (age));
 
 let valueInNumber = Number(score)
-// console.log(valueInNumber);
-// console.log(typeof valueInNumber);
+//console.log(valueInNumber);
+//console.log(typeof valueInNumber);
 
 let score1 = "11abc"
 // console.log(score1)
@@ -23,7 +23,7 @@ let score12 = null
 // console.log(typeof (score12))
 
 
-let valueInNumber12 = Number(score12)
+let valueInNumber12 = String(score12)
 // console.log(typeof valueInNumber12);
 // console.log(valueInNumber12);
 
@@ -48,14 +48,14 @@ let valueInNumber1234 = Number(score1234)
 // console.log(valueInNumber1234);
 
 let score12345 = "Mahima"
-// console.log(score12345)
-// console.log(typeof score12345)
-// console.log(typeof (score12345))
+console.log(score12345)
+console.log(typeof score12345)
+console.log(typeof (score12345))
 
 
 let valueInNumber12345 = Number(score12345)
-// console.log(typeof valueInNumber12345);
-// console.log(valueInNumber12345);
+console.log(typeof valueInNumber12345);
+console.log(valueInNumber12345);
 
 // "33" => 33
 // "33abc" => NaN
@@ -64,7 +64,7 @@ let valueInNumber12345 = Number(score12345)
 let isLoggedIn = 1
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-//console.log(booleanIsLoggedIn)
+// console.log(booleanIsLoggedIn)
 
 let isLoggedIn1 = "mahima"
 let booleanIsLoggedIn1 = Boolean(isLoggedIn1)
@@ -76,10 +76,12 @@ let booleanIsLoggedIn12 = Boolean(isLoggedIn12)
 
 // 1 => true; 0 => false
 // "" => false
-// "hitesh" => true
+// "mahima" => true
 
 let someNumber = 33
 
 let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+
